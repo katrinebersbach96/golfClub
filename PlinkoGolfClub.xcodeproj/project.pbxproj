@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A51BD17A2C806DD8006A0B5E /* RangeReservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51BD1792C806DD8006A0B5E /* RangeReservationView.swift */; };
+		A51BD17C2C807003006A0B5E /* LessonReservationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51BD17B2C807003006A0B5E /* LessonReservationView.swift */; };
+		A537280C2C7E0499000081D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A537280B2C7E0499000081D0 /* AppDelegate.swift */; };
+		A537280E2C7E0499000081D0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A537280D2C7E0499000081D0 /* SceneDelegate.swift */; };
+		A53728102C7E0499000081D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A537280F2C7E0499000081D0 /* ViewController.swift */; };
+		A53728132C7E0499000081D0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A53728122C7E0499000081D0 /* Base */; };
+		A53728152C7E049A000081D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A53728142C7E049A000081D0 /* Assets.xcassets */; };
+		A53728182C7E049A000081D0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A53728172C7E049A000081D0 /* Base */; };
+		A53728272C7E04C3000081D0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53728262C7E04C3000081D0 /* MainView.swift */; };
+		A537282A2C7E0C2B000081D0 /* BackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53728292C7E0C2B000081D0 /* BackView.swift */; };
+		A537282C2C7E114E000081D0 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A537282B2C7E114E000081D0 /* LogoView.swift */; };
+		A537282E2C7E11F2000081D0 /* TabMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A537282D2C7E11F2000081D0 /* TabMainView.swift */; };
+		A53728302C7E121B000081D0 /* View + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A537282F2C7E121B000081D0 /* View + Ext.swift */; };
+		A53728322C7E1232000081D0 /* Color + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53728312C7E1232000081D0 /* Color + Ext.swift */; };
+		A53728342C7E1431000081D0 /* ReservationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53728332C7E1431000081D0 /* ReservationsView.swift */; };
+		A53728372C7E14CB000081D0 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53728362C7E14CB000081D0 /* NewsView.swift */; };
+		A537283A2C7E1D00000081D0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53728392C7E1D00000081D0 /* NetworkManager.swift */; };
+		A537283D2C7E1F7C000081D0 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = A537283C2C7E1F7C000081D0 /* News.swift */; };
+		A537283F2C7E2076000081D0 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A537283E2C7E2076000081D0 /* DataManager.swift */; };
+		A53728412C7E2178000081D0 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53728402C7E2178000081D0 /* NewsCell.swift */; };
+		A53728432C7E2791000081D0 /* ClubNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53728422C7E2791000081D0 /* ClubNews.swift */; };
+		A53728452C7E2800000081D0 /* ClubNewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53728442C7E2800000081D0 /* ClubNewsCell.swift */; };
+		A53728482C7E32DA000081D0 /* TeeTimeReservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A53728472C7E32DA000081D0 /* TeeTimeReservation.swift */; };
+		A575BC2C2C8077C6008FB890 /* RealmReservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575BC2B2C8077C6008FB890 /* RealmReservation.swift */; };
+		A575BC2E2C8079BD008FB890 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A575BC2D2C8079BD008FB890 /* StorageManager.swift */; };
+		A5929B0B2C808BB8009076D1 /* ReservatiomnCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5929B0A2C808BB8009076D1 /* ReservatiomnCell.swift */; };
+		A5929B0D2C809653009076D1 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5929B0C2C809653009076D1 /* AuthViewModel.swift */; };
+		A5929B0F2C809686009076D1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5929B0E2C809686009076D1 /* LoginView.swift */; };
+		A5929B112C8097A8009076D1 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5929B102C8097A8009076D1 /* RootView.swift */; };
+		A5929B132C8097DC009076D1 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5929B122C8097DC009076D1 /* RegistrationView.swift */; };
+		A5929B152C8098CB009076D1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A5929B142C8098CB009076D1 /* GoogleService-Info.plist */; };
+		A5929B172C80BABB009076D1 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5929B162C80BABB009076D1 /* ProfileView.swift */; };
+		A5929B1A2C80BEF4009076D1 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = A5929B192C80BEF4009076D1 /* Lottie */; };
+		A5929B1C2C80BF3D009076D1 /* Lottie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5929B1B2C80BF3D009076D1 /* Lottie.swift */; };
+		A5929B1E2C80C680009076D1 /* loading.json in Resources */ = {isa = PBXBuildFile; fileRef = A5929B1D2C80C680009076D1 /* loading.json */; };
+		A5929B202C80CD0C009076D1 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5929B1F2C80CD0C009076D1 /* MainViewModel.swift */; };
+		A5929B232C80D3DD009076D1 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = A5929B222C80D3DD009076D1 /* PrivacyInfo.xcprivacy */; };
+		A5929B272C80D5AC009076D1 /* golf.json in Resources */ = {isa = PBXBuildFile; fileRef = A5929B262C80D5AC009076D1 /* golf.json */; };
+		F493643BBA247F0484E5FAF0 /* Pods_PlinkoGolfClub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78D7E7F5C15AA9ABC02FFECC /* Pods_PlinkoGolfClub.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		78D7E7F5C15AA9ABC02FFECC /* Pods_PlinkoGolfClub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlinkoGolfClub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A35036373DF121C49D3EA570 /* Pods-PlinkoGolfClub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlinkoGolfClub.release.xcconfig"; path = "Target Support Files/Pods-PlinkoGolfClub/Pods-PlinkoGolfClub.release.xcconfig"; sourceTree = "<group>"; };
+		A51BD1792C806DD8006A0B5E /* RangeReservationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RangeReservationView.swift; sourceTree = "<group>"; };
+		A51BD17B2C807003006A0B5E /* LessonReservationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonReservationView.swift; sourceTree = "<group>"; };
+		A53728082C7E0499000081D0 /* PlinkoGolfClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlinkoGolfClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A537280B2C7E0499000081D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A537280D2C7E0499000081D0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A537280F2C7E0499000081D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A53728122C7E0499000081D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A53728142C7E049A000081D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A53728172C7E049A000081D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A53728192C7E049A000081D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A53728262C7E04C3000081D0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		A53728292C7E0C2B000081D0 /* BackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackView.swift; sourceTree = "<group>"; };
+		A537282B2C7E114E000081D0 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		A537282D2C7E11F2000081D0 /* TabMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabMainView.swift; sourceTree = "<group>"; };
+		A537282F2C7E121B000081D0 /* View + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View + Ext.swift"; sourceTree = "<group>"; };
+		A53728312C7E1232000081D0 /* Color + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color + Ext.swift"; sourceTree = "<group>"; };
+		A53728332C7E1431000081D0 /* ReservationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationsView.swift; sourceTree = "<group>"; };
+		A53728362C7E14CB000081D0 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		A53728392C7E1D00000081D0 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		A537283C2C7E1F7C000081D0 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		A537283E2C7E2076000081D0 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		A53728402C7E2178000081D0 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		A53728422C7E2791000081D0 /* ClubNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubNews.swift; sourceTree = "<group>"; };
+		A53728442C7E2800000081D0 /* ClubNewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClubNewsCell.swift; sourceTree = "<group>"; };
+		A53728472C7E32DA000081D0 /* TeeTimeReservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeeTimeReservation.swift; sourceTree = "<group>"; };
+		A575BC2B2C8077C6008FB890 /* RealmReservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmReservation.swift; sourceTree = "<group>"; };
+		A575BC2D2C8079BD008FB890 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		A5929B0A2C808BB8009076D1 /* ReservatiomnCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservatiomnCell.swift; sourceTree = "<group>"; };
+		A5929B0C2C809653009076D1 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		A5929B0E2C809686009076D1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A5929B102C8097A8009076D1 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		A5929B122C8097DC009076D1 /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		A5929B142C8098CB009076D1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A5929B162C80BABB009076D1 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		A5929B1B2C80BF3D009076D1 /* Lottie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lottie.swift; sourceTree = "<group>"; };
+		A5929B1D2C80C680009076D1 /* loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loading.json; sourceTree = "<group>"; };
+		A5929B1F2C80CD0C009076D1 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		A5929B212C80D3CF009076D1 /* PlinkoGolfClub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PlinkoGolfClub.entitlements; sourceTree = "<group>"; };
+		A5929B222C80D3DD009076D1 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		A5929B262C80D5AC009076D1 /* golf.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = golf.json; sourceTree = "<group>"; };
+		CC9958378E3CEDAC11ED8A61 /* Pods-PlinkoGolfClub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlinkoGolfClub.debug.xcconfig"; path = "Target Support Files/Pods-PlinkoGolfClub/Pods-PlinkoGolfClub.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A53728052C7E0499000081D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F493643BBA247F0484E5FAF0 /* Pods_PlinkoGolfClub.framework in Frameworks */,
+				A5929B1A2C80BEF4009076D1 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A53727FF2C7E0499000081D0 = {
+			isa = PBXGroup;
+			children = (
+				A5929B262C80D5AC009076D1 /* golf.json */,
+				A537280A2C7E0499000081D0 /* PlinkoGolfClub */,
+				A53728092C7E0499000081D0 /* Products */,
+				FB37EA4E2CE92679CF13B331 /* Pods */,
+				DB369EBDA67600092166C265 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A53728092C7E0499000081D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A53728082C7E0499000081D0 /* PlinkoGolfClub.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A537280A2C7E0499000081D0 /* PlinkoGolfClub */ = {
+			isa = PBXGroup;
+			children = (
+				A5929B212C80D3CF009076D1 /* PlinkoGolfClub.entitlements */,
+				A5929B142C8098CB009076D1 /* GoogleService-Info.plist */,
+				A5929B222C80D3DD009076D1 /* PrivacyInfo.xcprivacy */,
+				A575BC2A2C8077B9008FB890 /* RealmModel */,
+				A537283B2C7E1E45000081D0 /* Model */,
+				A53728382C7E1CF6000081D0 /* Service */,
+				A53728352C7E14C6000081D0 /* News */,
+				A53728282C7E0C17000081D0 /* Components */,
+				A53728252C7E04BC000081D0 /* Root */,
+				A53728242C7E04B7000081D0 /* Tab */,
+				A53728232C7E04B3000081D0 /* Auth */,
+				A53728222C7E04AF000081D0 /* Profile */,
+				A53728212C7E04AA000081D0 /* Reservations */,
+				A53728202C7E04A2000081D0 /* Main */,
+				A537281F2C7E049F000081D0 /* APP */,
+				A53728112C7E0499000081D0 /* Main.storyboard */,
+				A53728142C7E049A000081D0 /* Assets.xcassets */,
+				A53728162C7E049A000081D0 /* LaunchScreen.storyboard */,
+				A53728192C7E049A000081D0 /* Info.plist */,
+			);
+			path = PlinkoGolfClub;
+			sourceTree = "<group>";
+		};
+		A537281F2C7E049F000081D0 /* APP */ = {
+			isa = PBXGroup;
+			children = (
+				A537280B2C7E0499000081D0 /* AppDelegate.swift */,
+				A537280D2C7E0499000081D0 /* SceneDelegate.swift */,
+				A537280F2C7E0499000081D0 /* ViewController.swift */,
+			);
+			path = APP;
+			sourceTree = "<group>";
+		};
+		A53728202C7E04A2000081D0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A53728262C7E04C3000081D0 /* MainView.swift */,
+				A5929B1F2C80CD0C009076D1 /* MainViewModel.swift */,
+				A537282B2C7E114E000081D0 /* LogoView.swift */,
+				A53728462C7E32CA000081D0 /* Components */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A53728212C7E04AA000081D0 /* Reservations */ = {
+			isa = PBXGroup;
+			children = (
+				A53728332C7E1431000081D0 /* ReservationsView.swift */,
+				A5929B0A2C808BB8009076D1 /* ReservatiomnCell.swift */,
+			);
+			path = Reservations;
+			sourceTree = "<group>";
+		};
+		A53728222C7E04AF000081D0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A5929B162C80BABB009076D1 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A53728232C7E04B3000081D0 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				A5929B1D2C80C680009076D1 /* loading.json */,
+				A5929B0C2C809653009076D1 /* AuthViewModel.swift */,
+				A5929B0E2C809686009076D1 /* LoginView.swift */,
+				A5929B122C8097DC009076D1 /* RegistrationView.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		A53728242C7E04B7000081D0 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				A537282D2C7E11F2000081D0 /* TabMainView.swift */,
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		A53728252C7E04BC000081D0 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				A5929B102C8097A8009076D1 /* RootView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		A53728282C7E0C17000081D0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A53728292C7E0C2B000081D0 /* BackView.swift */,
+				A537282F2C7E121B000081D0 /* View + Ext.swift */,
+				A53728312C7E1232000081D0 /* Color + Ext.swift */,
+				A5929B1B2C80BF3D009076D1 /* Lottie.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A53728352C7E14C6000081D0 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				A53728362C7E14CB000081D0 /* NewsView.swift */,
+				A53728402C7E2178000081D0 /* NewsCell.swift */,
+				A53728442C7E2800000081D0 /* ClubNewsCell.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		A53728382C7E1CF6000081D0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				A53728392C7E1D00000081D0 /* NetworkManager.swift */,
+				A575BC2D2C8079BD008FB890 /* StorageManager.swift */,
+				A537283E2C7E2076000081D0 /* DataManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A537283B2C7E1E45000081D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A537283C2C7E1F7C000081D0 /* News.swift */,
+				A53728422C7E2791000081D0 /* ClubNews.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A53728462C7E32CA000081D0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				A53728472C7E32DA000081D0 /* TeeTimeReservation.swift */,
+				A51BD1792C806DD8006A0B5E /* RangeReservationView.swift */,
+				A51BD17B2C807003006A0B5E /* LessonReservationView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		A575BC2A2C8077B9008FB890 /* RealmModel */ = {
+			isa = PBXGroup;
+			children = (
+				A575BC2B2C8077C6008FB890 /* RealmReservation.swift */,
+			);
+			path = RealmModel;
+			sourceTree = "<group>";
+		};
+		DB369EBDA67600092166C265 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78D7E7F5C15AA9ABC02FFECC /* Pods_PlinkoGolfClub.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB37EA4E2CE92679CF13B331 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC9958378E3CEDAC11ED8A61 /* Pods-PlinkoGolfClub.debug.xcconfig */,
+				A35036373DF121C49D3EA570 /* Pods-PlinkoGolfClub.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A53728072C7E0499000081D0 /* PlinkoGolfClub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A537281C2C7E049A000081D0 /* Build configuration list for PBXNativeTarget "PlinkoGolfClub" */;
+			buildPhases = (
+				457FB2E5218F4B7588714D45 /* [CP] Check Pods Manifest.lock */,
+				A53728042C7E0499000081D0 /* Sources */,
+				A53728052C7E0499000081D0 /* Frameworks */,
+				A53728062C7E0499000081D0 /* Resources */,
+				BCB41A1AB853B136EBA5C728 /* [CP] Embed Pods Frameworks */,
+				AEFDAF9EBB8B36AC5B93BEBB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlinkoGolfClub;
+			packageProductDependencies = (
+				A5929B192C80BEF4009076D1 /* Lottie */,
+			);
+			productName = PlinkoGolfClub;
+			productReference = A53728082C7E0499000081D0 /* PlinkoGolfClub.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A53728002C7E0499000081D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					A53728072C7E0499000081D0 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = A53728032C7E0499000081D0 /* Build configuration list for PBXProject "PlinkoGolfClub" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A53727FF2C7E0499000081D0;
+			packageReferences = (
+				A5929B182C80BEF4009076D1 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+			);
+			productRefGroup = A53728092C7E0499000081D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A53728072C7E0499000081D0 /* PlinkoGolfClub */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A53728062C7E0499000081D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5929B232C80D3DD009076D1 /* PrivacyInfo.xcprivacy in Resources */,
+				A5929B272C80D5AC009076D1 /* golf.json in Resources */,
+				A53728152C7E049A000081D0 /* Assets.xcassets in Resources */,
+				A5929B152C8098CB009076D1 /* GoogleService-Info.plist in Resources */,
+				A53728182C7E049A000081D0 /* Base in Resources */,
+				A53728132C7E0499000081D0 /* Base in Resources */,
+				A5929B1E2C80C680009076D1 /* loading.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		457FB2E5218F4B7588714D45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlinkoGolfClub-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEFDAF9EBB8B36AC5B93BEBB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlinkoGolfClub/Pods-PlinkoGolfClub-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlinkoGolfClub/Pods-PlinkoGolfClub-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlinkoGolfClub/Pods-PlinkoGolfClub-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCB41A1AB853B136EBA5C728 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlinkoGolfClub/Pods-PlinkoGolfClub-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlinkoGolfClub/Pods-PlinkoGolfClub-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlinkoGolfClub/Pods-PlinkoGolfClub-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A53728042C7E0499000081D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A537283A2C7E1D00000081D0 /* NetworkManager.swift in Sources */,
+				A53728102C7E0499000081D0 /* ViewController.swift in Sources */,
+				A53728372C7E14CB000081D0 /* NewsView.swift in Sources */,
+				A5929B132C8097DC009076D1 /* RegistrationView.swift in Sources */,
+				A537283F2C7E2076000081D0 /* DataManager.swift in Sources */,
+				A5929B202C80CD0C009076D1 /* MainViewModel.swift in Sources */,
+				A53728412C7E2178000081D0 /* NewsCell.swift in Sources */,
+				A53728342C7E1431000081D0 /* ReservationsView.swift in Sources */,
+				A537282C2C7E114E000081D0 /* LogoView.swift in Sources */,
+				A51BD17C2C807003006A0B5E /* LessonReservationView.swift in Sources */,
+				A5929B0B2C808BB8009076D1 /* ReservatiomnCell.swift in Sources */,
+				A5929B172C80BABB009076D1 /* ProfileView.swift in Sources */,
+				A5929B0F2C809686009076D1 /* LoginView.swift in Sources */,
+				A53728302C7E121B000081D0 /* View + Ext.swift in Sources */,
+				A51BD17A2C806DD8006A0B5E /* RangeReservationView.swift in Sources */,
+				A53728272C7E04C3000081D0 /* MainView.swift in Sources */,
+				A5929B112C8097A8009076D1 /* RootView.swift in Sources */,
+				A537282A2C7E0C2B000081D0 /* BackView.swift in Sources */,
+				A53728482C7E32DA000081D0 /* TeeTimeReservation.swift in Sources */,
+				A575BC2E2C8079BD008FB890 /* StorageManager.swift in Sources */,
+				A537280C2C7E0499000081D0 /* AppDelegate.swift in Sources */,
+				A537282E2C7E11F2000081D0 /* TabMainView.swift in Sources */,
+				A53728432C7E2791000081D0 /* ClubNews.swift in Sources */,
+				A537280E2C7E0499000081D0 /* SceneDelegate.swift in Sources */,
+				A5929B0D2C809653009076D1 /* AuthViewModel.swift in Sources */,
+				A575BC2C2C8077C6008FB890 /* RealmReservation.swift in Sources */,
+				A537283D2C7E1F7C000081D0 /* News.swift in Sources */,
+				A53728322C7E1232000081D0 /* Color + Ext.swift in Sources */,
+				A53728452C7E2800000081D0 /* ClubNewsCell.swift in Sources */,
+				A5929B1C2C80BF3D009076D1 /* Lottie.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A53728112C7E0499000081D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A53728122C7E0499000081D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A53728162C7E049A000081D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A53728172C7E049A000081D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A537281A2C7E049A000081D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A537281B2C7E049A000081D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A537281D2C7E049A000081D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC9958378E3CEDAC11ED8A61 /* Pods-PlinkoGolfClub.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PlinkoGolfClub/PlinkoGolfClub.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlinkoGolfClub/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PGolfClub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A537281E2C7E049A000081D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A35036373DF121C49D3EA570 /* Pods-PlinkoGolfClub.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PlinkoGolfClub/PlinkoGolfClub.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PlinkoGolfClub/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.PGolfClub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A53728032C7E0499000081D0 /* Build configuration list for PBXProject "PlinkoGolfClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A537281A2C7E049A000081D0 /* Debug */,
+				A537281B2C7E049A000081D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A537281C2C7E049A000081D0 /* Build configuration list for PBXNativeTarget "PlinkoGolfClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A537281D2C7E049A000081D0 /* Debug */,
+				A537281E2C7E049A000081D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A5929B182C80BEF4009076D1 /* XCRemoteSwiftPackageReference "lottie-spm" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-spm.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A5929B192C80BEF4009076D1 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A5929B182C80BEF4009076D1 /* XCRemoteSwiftPackageReference "lottie-spm" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A53728002C7E0499000081D0 /* Project object */;
+}
